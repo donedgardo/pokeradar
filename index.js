@@ -367,6 +367,7 @@ function requireSession(req, res, next) {
   next();
 }
 
+
 app.use('/api/com.pokemon.go/login', bodyParser.json());
 app.post('/api/com.pokemon.go/login', postLogin);
 
