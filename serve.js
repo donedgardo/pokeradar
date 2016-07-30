@@ -16,7 +16,7 @@ app.use('/', pokeapp);
 app.use('/static', express.static('./public/static'));
 app.use('/', express.static('./public/static'));
 
-plainServer.listen(3000, function () {
+plainServer.listen(80, function () {
   console.log('Listening on http://127.0.0.1:' + plainServer.address().port);
 });
 
