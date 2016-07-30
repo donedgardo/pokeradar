@@ -1,0 +1,38 @@
+{
+  "name": "pokemap-server",
+  "version": "1.2.3",
+  "description": "PokemonGo-Map APIs for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolaj86/node-pokemap.git"
+  },
+  "keywords": [
+    "pokestop",
+    "pokemon",
+    "pokemons",
+    "pokegym",
+    "gym",
+    "pokemongo",
+    "go"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/coolaj86/node-pokemap/issues"
+  },
+  "homepage": "https://github.com/coolaj86/node-pokemap#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "localhost.daplie.com-certificates": "^1.2.0",
+    "pokemon-go-node-api": "https://github.com/Daplie/Pokemon-GO-node-api.git#master",
+    "querystring": "^0.2.0",
+    "request": "^2.73.0",
+    "requestify": "^0.1.17",
+    "tough-cookie-filestore": "0.0.1"
+  }
+}

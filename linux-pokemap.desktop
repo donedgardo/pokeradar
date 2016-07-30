@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.2
+Encoding=UTF-8
+Name=Pokémap
+Comment=Run Pokémap
+Icon=utilities-terminal
+Exec=bash -c 'cd $(dirname %k) && node serve.js'
+Terminal=true
+Type=Application
+Categories=Application;
