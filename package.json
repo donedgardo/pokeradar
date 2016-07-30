@@ -36,6 +36,7 @@
     "querystring": "^0.2.0",
     "request": "^2.73.0",
     "requestify": "^0.1.17",
+    "s2-geometry": "git+https://github.com/coolaj86/s2-geometry-javascript.git",
     "tough-cookie-filestore": "0.0.1"
   }
 }
